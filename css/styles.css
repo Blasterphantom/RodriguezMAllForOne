@@ -1,0 +1,741 @@
+@font-face {
+    font-family: GowunBatang;
+    src: url(../assets/Gowun_Batang/GowunBatang-Regular.ttf);
+}
+
+.homeBody{
+    background-image: url(../assets/one-piece-luffy-and-shanks-silhouette-7tybiy29bfjoh2fh.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.sayHelloBody{
+    background-image: url(../assets/drumIslandScene.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.oddBody{
+    background-image: url(../assets/Marineford_Infobox.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.reverseBody{
+    background-image: url(../assets/sabodyScene.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.restaurantBody{
+    background-image: url(../assets/water7Scene.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.addBody{
+    background-image: url(../assets/boaIslandScene.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.askingBody{
+    background-image: url(../assets/eniesLobby.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.greaterBody{
+    background-image: url(../assets/fishmanIslandScene.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.madBody{
+    background-image: url(../assets/punkHarardScene.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.studentBody{
+    background-image: url(../assets/wanoScene.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.homeTitle{
+    font-family: GowunBatang;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.homeTitleRow{
+    /*width: 100%;*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sayHelloTitle{
+    font-family: GowunBatang;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(152, 166, 236, .80);
+}
+
+.oddTitle{
+    font-family: GowunBatang;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 239, 100, .80);
+}
+
+.reverseTitle{
+    font-family: GowunBatang;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(188, 255, 136, .80);
+}
+
+.restaurantTitle{
+    font-family: GowunBatang;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(200, 82, 255, .80);
+}
+
+.addTitle{
+    font-family: GowunBatang;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 124, 171, .80);
+}
+
+.askingTitle{
+    font-family: GowunBatang;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(254, 254, 254, .80);
+}
+
+.greaterTitle{
+    font-family: GowunBatang;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(50, 95, 255, .80);
+}
+
+.madTitle{
+    font-family: GowunBatang;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(113, 246, 255, .80);
+}
+
+.studentTitle{
+    font-family: GowunBatang;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(254, 254, 254, .50);
+}
+
+.sayHelloTitleRow{
+    /*width: 100%;*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.oddTitleRow{
+    /*width: 100%;*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.madTitleRow{
+    /*width: 100%;*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.studentTitleRow{
+    /*width: 100%;*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRowHome{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRowMad{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.col-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 224px;
+
+}
+
+.col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text1{
+    font-family: GowunBatang;
+    font-size: 36px;
+    color: rgb(254, 254, 254);
+    text-align: center;
+}
+
+#buttonMiddle{
+    margin-top: 80px;
+}
+
+.inputBox1Row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    /* height: 100px;
+    width: 1200px;
+    background-color: rgba(152, 166, 236, .80); */
+}
+
+.inputBoxAdd1Row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.inputBoxAdd2Row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.inputBoxAsking1Row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.inputBoxAsking2Row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#nameInput{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(152, 166, 236, .80);
+    font-family: GowunBatang;
+    font-size: 40px;
+}
+
+.nameInput2{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(255, 239, 100, .80);
+    font-family: GowunBatang;
+    font-size: 40px;
+}
+
+.nameInput3{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(188, 255, 136, .80);
+    font-family: GowunBatang;
+    font-size: 40px;
+}
+
+.nameInput4{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(200, 82, 255, .80);
+    font-family: GowunBatang;
+    font-size: 40px;
+}
+
+.nameInput5{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(255, 124, 171, .80);
+    font-family: GowunBatang;
+    font-size: 40px;
+}
+
+.nameInput6{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(254, 254, 254, .80);
+    font-family: GowunBatang;
+    font-size: 40px;
+}
+
+.nameInput7{
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(50, 95, 255, .80);
+    font-family: GowunBatang;
+    font-size: 40px;
+}
+
+#madInput1{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(113, 246, 255, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#madInput2{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(238, 107, 99, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#madInput3{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(113, 246, 255, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+}
+
+#madInput4{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(238, 107, 99, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#madInput5{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(113, 246, 255, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#madInput6{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(238, 107, 99, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+}
+
+#madInput7{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(113, 246, 255, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#madInput8{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(238, 107, 99, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#madInput9{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(113, 246, 255, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+}
+
+#madInput10{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(238, 107, 99, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#madInput11{
+    width: 200px;
+    height: 75px;
+    background-color: rgba(113, 246, 255, .80);
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.submitButton{
+    text-decoration: none;
+}
+
+.submitButtonBox{
+    width: 200px;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitButtonText{
+    font-family: GowunBatang;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.outputBox1Row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.outputBox1{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(152, 166, 236, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outputBox2{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(255, 239, 100, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outputBox3{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(188, 255, 136, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outputBox4{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(200, 82, 255, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outputBox5{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(255, 124, 171, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outputBox6{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(254, 254, 254, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outputBox7{
+    height: 350px;
+    width: 600px;
+    background-color: rgba(50, 95, 255, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outputBox8{
+    height: 350px;
+    width: 900px;
+    background-color: rgba(238, 107, 99, .80);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.outputBox1Text{
+    font-family: GowunBatang;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outputBoxMadText{
+    font-family: GowunBatang;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonHomeRow{
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    padding-bottom: 24px;
+}
+
+.buttonHome{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    margin-right: 40px;
+}
+
+.buttonHomeText{
+    margin: 0;
+    padding: 0;
+    color: rgb(254, 254, 254);
+    font-size: 40px;
+    font-family: GowunBatang;
+}
+
+.col-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.studentContentRow{
+    padding: 0;
+    margin: 0;
+}
+
+.outputBoxStudent{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(255, 183, 197, .80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstNameRow{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.firstNameTextBoxText{
+    font-family: GowunBatang;
+    font-size: 30px;
+    margin: 0;
+}
+
+.firstNameOutputBoxText{
+    font-family: GowunBatang;
+    font-size: 20px;
+    margin: 0;
+}
+
+.firstNameTextBox{
+    width: 48%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.firstNameOutputBox{
+    width: 48%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.studentDropdown{
+    background-color: rgba(255, 183, 197, .80);
+    width: 500px;
+    height: 75px;
+    font-size: 30px;
+    font-family: GowunBatang;
+}
+
+label{
+    margin-top: 110px;
+    font-size: 30px;
+    font-family: GowunBatang;
+}
+
+/* .inputBoxStudentRow{
+    margin: 0;
+    padding: 0;
+    margin-top: 145px;
+} */
+
+#nameInputStudent{
+    width: 500px;
+    height: 75px;
+    font-size: 30px;
+    font-family: GowunBatang;
+    background-color: rgba(255, 183, 197, .80);
+}

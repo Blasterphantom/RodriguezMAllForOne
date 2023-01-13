@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Say Hello</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid studentBody">
+      <div class="row studentTitleRow">
+        <h1 class="studentTitle">Student Directory</h1>
+      </div>
+
+      <div class="row studentContentRow">
+        <div class="col-6">
+            <label for="students">Select a name:</label>
+
+            <select name="students" id="students" class="studentDropdown">
+              <option class="studentGroup" value="Aisha">Aisha Mashrah</option>
+              <option class="studentGroup" value="Amar">Amar Mann</option>
+              <option class="studentGroup" value="Andrea">Andrea Burr</option>
+              <option class="studentGroup" value="Andrew">Andrew Nilsson</option>
+              <option class="studentGroup" value="Brandon">Brandon Le</option>
+              <option class="studentGroup" value="Caroline">Caroline Hana</option>
+              <option class="studentGroup" value="Chris">Chris Martinez</option>
+              <option class="studentGroup" value="Daniel">Daniel Decoito</option>
+              <option class="studentGroup" value="Elizar">Elizar Garcia</option>
+              <option class="studentGroup" value="Frenando">Fernando Aguilar</option>
+              <option class="studentGroup" value="Griffin">Griffin Parker</option>
+              <option class="studentGroup" value="Harrison">Harrison Busby</option>
+              <option class="studentGroup" value="Isaiah">Isaiah Ferguson</option>
+              <option class="studentGroup" value="Jacob">Jacob Dekok</option>
+              <option class="studentGroup" value="Jeremy">Jeremy Lapham</option>
+              <option class="studentGroup" value="Jessie">Jessie Lamzon</option>
+              <option class="studentGroup" value="John">John	Magpantay</option>
+              <option class="studentGroup" value="Jovann">Jovann Contreras</option>
+              <option class="studentGroup" value="Kenneth">Kenneth Fujimura</option>
+              <option class="studentGroup" value="Kent">Kent Tupas</option>
+              <option class="studentGroup" value="Lerissa">Lerissa Lazar</option>
+              <option class="studentGroup" value="Madeline">Madeline	Gowan</option>
+              <option class="studentGroup" value="Manuel">Manuel Leyva</option>
+              <option class="studentGroup" value="Marcel">Marcel Rodriguez</option>
+              <option class="studentGroup" value="Mark">Mark	Ramirez</option>
+              <option class="studentGroup" value="NHarrison">N. Harrison Wilkins</option>
+              <option class="studentGroup" value="Pedro">Pedro Castaneda</option>
+              <option class="studentGroup" value="Reed">Reed	Goodwin</option>
+              <option class="studentGroup" value="Richard">Richard Johnson</option>
+              <option class="studentGroup" value="Samuel">Samuel Laguna</option>
+              <option class="studentGroup" value="Shaun">Shaun Aguirre-Reyes</option>
+              <option class="studentGroup" value="Ulises">Ulises Ortega</option>
+
+            </select>
+
+
+        </div>
+
+        <div class="col-6">
+          <div class="outputBoxStudent">
+
+            <div class="row firstNameRow">
+              <div class="firstNameTextBox">
+                <h1 class="firstNameTextBoxText">First Name:</h1>
+              </div>
+              <div class="firstNameOutputBox">
+                <h1 id="firstName" class="firstNameOutputBoxText">"Name appears here"</h1>
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row firstNameRow">
+                <div class="firstNameTextBox">
+                  <h1 class="firstNameTextBoxText">Last Name:</h1>
+                </div>
+                <div class="firstNameOutputBox">
+                  <h1 id="lastName" class="firstNameOutputBoxText">"Name appears here"</h1>
+                </div>
+              </div>
+
+              <br>
+
+              <div class="row firstNameRow">
+                <div class="firstNameTextBox">
+                  <h1 class="firstNameTextBoxText">Slack Name:</h1>
+                </div>
+                <div class="firstNameOutputBox">
+                  <h1 id="slackName" class="firstNameOutputBoxText">"Name appears here"</h1>
+                </div>
+              </div>
+
+              <br>
+
+              <div class="row firstNameRow">
+                <div class="firstNameTextBox">
+                  <h1 class="firstNameTextBoxText">Email:</h1>
+                </div>
+                <div class="firstNameOutputBox">
+                  <h1 id="email" class="firstNameOutputBoxText">"Email appears here"</h1>
+                </div>
+              </div>
+
+              <br>
+
+            <div class="row firstNameRow">
+                <div class="firstNameTextBox">
+                  <h1 class="firstNameTextBoxText">Hobbies:</h1>
+                </div>
+                <div class="firstNameOutputBox">
+                  <h1 id="hobbies" class="firstNameOutputBoxText">"Hobbies appears here"</h1>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row buttonHomeRow">
+        <a class="buttonHome" href="../index.html">
+          <h2 class="buttonHomeText">Home</h2>
+        </a>
+      </div>
+    </div>
+
+    <script src="../js/student.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
